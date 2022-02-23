@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+}
+
+/*  header */
+
+.disponivel-loki {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    line-height: 80px;
+}
+
+.disponivel-loki h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'B612',sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.disponivel-loki h1 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'B612',sans-serif;
+    color: #FFFFFF;
+    
+}
+
+/* section-principal */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    
+}
+
+.principal .imagem img {
+    height: 250px;
+}
+
+.conteudo {
+    margin-left: 60px;
+}
+
+.conteudo .time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.conteudo p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'B612' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+
+.conteudo span {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: B612;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: -95px;
+}
+
+.conteudo .star img {
+    margin: 0px 4px;
+}
+
+
+.conteudo strong {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: B612;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.conteudo .btn1 {
+    color: #FFFFFF;
+    background: #0072D2;
+    border: none;
+    width: 184px;
+    height: 52px;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.conteudo .btn1:hover {
+    background: #2186d8;
+}
+
+.conteudo .btn2 {
+    width: 115px;
+    height: 52px;
+    margin-left: 20px;
+    background: #131318;
+    color: #FFFFFF;
+    border: 1px rgb(243, 243, 241) solid;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+
+.conteudo .btn2:hover {
+    background: #2d2d3a;
+}
+
+/* responsividade */
+
+@media (max-width:1200px) {
+    .container {
+        height: 145vh;
+    }
+      }
+
+      @media (max-width:901px) {
+        .container {
+            height: 130vh;
+        }
+          }
+
+          @media (max-width:835px) {
+            .container {
+                height: 130vh;
+            }
+              }
+
+          @media (max-width:690px) {
+            .container {
+                height: 190vh;
+            }
+              }
+
+              @media (max-width:280px) {
+                .container {
+                    height: 200vh;
+                  }
+
+            }
+
+@media (max-width:915px) {
+    .principal {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:740px) {
+    .conteudo p {
+        margin-top: 30px;
+    }
+
+    .conteudo p {
+        margin-right: 23px;
+    }
+
+    .conteudo .time {
+        
+    }
+
+    .conteudo span {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:485px) {
+    .conteudo span {
+        margin-left: 5px;
+    }
+
+    .conteudo .star img {
+        margin: 0px 1px;
+    }
+
+    
+    }
+
+    @media (max-width:440px) {
+         .container {
+             background-size: 100% 100%;
+         }
+        }
+
+    @media (max-width:430px) {
+        .conteudo .btn1 {
+            width: 150px;
+        }
+
+        .conteudo .btn2 {
+            width: 100px;
+        }
+
+        .principal .imagem img {
+            margin-top: -70px;
+        }
+
+        .conteudo .time {
+           margin-top: -20px;
+        }
+
+        .conteudo .star img {
+            width: 25px;
+        }
+
+        .conteudo .btn1 {
+            width: 130px;
+            height: 45px;
+        }
+
+        .conteudo .btn2 {
+            width: 100px;
+            height: 45px;
+        }
+    
+        }
+
+        @media (max-width:320px) {
+    
+            .principal .imagem img {
+                margin-top: -70px;
+            }
+    
+            .conteudo .time {
+               margin-top: -20px;
+            }
+    
+            .conteudo .star img {
+                width: 15px;
+            }
+    
+            .conteudo .btn1 {
+                width: 110px;
+                height: 45px;
+                margin-top: -8px;
+                margin-left: -20px;
+            }
+    
+            .conteudo .btn2 {
+                width: 100px;
+                height: 45px;
+                margin-top: 10px;
+            }
+
+            .container {
+                background-size: cover;
+                background-position: center;
+            }
+
+            .disponivel-loki h1 {
+               font-size: 45px;
+            }
+
+            .principal .imagem img {
+                height: 200px;
+                margin-top: -90px;
+            }
+
+        
+            }
+
+    
+    
+
+
